@@ -6,7 +6,7 @@ const bcryptjs=require("bcryptjs")
 userApp.use(exp.json())
 
 
-
+{/* user*/}
 let userCollectionObj;
 const getUserCollectionObj =(req,res,next)=>{
     userCollectionObj=req.app.get("userCollectionObj")
